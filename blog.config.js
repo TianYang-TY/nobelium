@@ -3,8 +3,8 @@ const BLOG = {
   author: 'Yang Tian',
   email: 'tianyang.tyy@gmail.com',
   link: 'https://notion.yangt.me',
-  description: 'This gonna be an awesome website.',
-  lang: 'en-US',
+  description: '👀',
+  lang: 'zh-CN',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
@@ -14,7 +14,7 @@ const BLOG = {
   postsPerPage: 7,
   showAbout: true, // WIP
   showArchive: true, // WIP
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://github.com/TianYang-TY',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
