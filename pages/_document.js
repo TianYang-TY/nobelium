@@ -18,14 +18,14 @@ class MyDocument extends Document {
             <>
               <link
                 rel="preload"
-                href="/fonts/Merriweather.var.woff2"
+                href="/fonts/SourceSerif.var.woff2"
                 as="font"
                 type="font/woff2"
                 crossOrigin="anonymous"
               />
               <link
                 rel="preload"
-                href="/fonts/Merriweather-Italic.var.woff2"
+                href="/fonts/SourceSerif-Italic.var.woff2"
                 as="font"
                 type="font/woff2"
                 crossOrigin="anonymous"
@@ -56,30 +56,28 @@ class MyDocument extends Document {
             <>
               <link
                 rel="preconnect"
-                href="https://fonts.loli.net"
+                href="https://fonts.gstatic.com"
                 crossOrigin="anonymous"
               />
               <link
                 rel="preload"
                 as="style"
-                href={`https://fonts.loli.net/css2?family=Noto+${
+                href={`https://fonts.googleapis.com/css2?family=Noto+${
                   BLOG.font === 'serif' ? 'Serif' : 'Sans'
                 }+${CJK()}:wght@400;500;700&display=swap`}
               />
               <link
                 rel="stylesheet"
-                href={`https://fonts.loli.net/css2?family=Noto+${
+                href={`https://fonts.googleapis.com/css2?family=Noto+${
                   BLOG.font === 'serif' ? 'Serif' : 'Sans'
                 }+${CJK()}:wght@400;500;700&display=swap`}
-                media="print"
-                onLoad="this.media='all'"
               />
               <noscript>
                 <link
-                  href={`https://fonts.loli.net/css2?family=Noto+${
-                    BLOG.font === 'serif' ? 'Serif' : 'Sans'
-                  }+${CJK()}:wght@400;500;700&display=optional`}
                   rel="stylesheet"
+                  href={`https://fonts.googleapis.com/css2?family=Noto+${
+                    BLOG.font === 'serif' ? 'Serif' : 'Sans'
+                  }+${CJK()}:wght@400;500;700&display=swap`}
                 />
               </noscript>
             </>
