@@ -1,9 +1,11 @@
-<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-<style>
-rect { fill: black}
-@media (prefers-color-scheme: dark) {
-rect { fill: white}
-}
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
 </style>
-<rect width="200" height="200" rx="60"/>
+<path class="st0" d="M60,0h80c33.1,0,60,26.9,60,60v80c0,33.1-26.9,60-60,60H60c-33.1,0-60-26.9-60-60V60C0,26.9,26.9,0,60,0z"/>
+<image style="overflow:visible;" width="1000" height="1000" xlink:href="yang.png"  transform="matrix(0.2 0 0 0.2 0 0)">
+</image>
 </svg>
